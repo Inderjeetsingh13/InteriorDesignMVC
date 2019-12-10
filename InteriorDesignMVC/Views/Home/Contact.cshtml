@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+
+
+
+
+
+
+<div class="services">
+    <div class="container">
+        <h3 class="agileinfo_header">send us message</h3>
+        <p class="agileits_dummy_para">Fusce elementum sem ut ex condimentum facilisis.</p>
+        <div class="agileinfo_mail_grids">
+            <form method="post" action="sendMessage">
+            <span class="input input--chisato">
+
+                <input id="Name" class="input__field input__field--chisato" type="text" required="" name="Name" />
+
+                
+
+
+
+                <label class="input__label input__label--chisato" for="input-13">
+                    <span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
+                </label>
+            </span>
+            <span class="input input--chisato">
+
+                <input id="Email" type="text" name="Email" class="input__field input__field--chisato" required=""/> 
+
+                
+
+                <label class="input__label input__label--chisato" for="input-14">
+                    <span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
+                </label>
+            </span>
+            <span class="input input--chisato">
+
+                <input  ID="Subject" class="input__field input__field--chisato" required="" name="Subject"  />
+
+
+                
+
+                <label class="input__label input__label--chisato" for="input-15">
+                    <span class="input__label-content input__label-content--chisato" data-content="Subject">Subject</span>
+                </label>
+            </span>
+
+            <span class="input input--chisato">
+
+                <input ID="Message" Name="Message" class="input__field input__field--chisato col-lg-12" />
+
+
+
+
+                <label class="input__label input__label--chisato" for="input-15">
+                    <span class="input__label-content input__label-content--chisato" data-content="Message">Message </span>
+                </label>
+            </span>
+
+            <br style="clear:both;" />
+
+            <input id="BtnSend " type="submit" value="Send Message " />
+
+
+
+            <div id="data" runat="server">
+
+
+            </div>
+            </form>
+        </div>
+    </div>
+</div>

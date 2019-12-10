@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "LoginIndex";
+}
+
+
+
+
+<div class="services">
+    <div class="container">
+        <h3 class="agileinfo_header">send us message</h3>
+        <p class="agileits_dummy_para">Fusce elementum sem ut ex condimentum facilisis.</p>
+        <div class="agileinfo_mail_grids">
+            <form method="post" action="sendLoginCheck">
+                <span class="input input--chisato">
+
+                    <input id="User" class="input__field input__field--chisato" type="text" required="" name="User" />
+
+
+
+
+
+                    <label class="input__label input__label--chisato" for="input-13">
+                        <span class="input__label-content input__label-content--chisato" data-content="Name">User Name</span>
+                    </label>
+                </span>
+                <span class="input input--chisato">
+
+                    <input id="Password" type="text" name="Password" class="input__field input__field--chisato" required="" />
+
+
+
+                    <label class="input__label input__label--chisato" for="input-14">
+                        <span class="input__label-content input__label-content--chisato" data-content="Email">Password</span>
+                    </label>
+                </span>
+            
+              
+
+                <br style="clear:both;" />
+
+                <input id="BtnSend " type="submit" value="Sign In " />
+
+
+
+                <div id="data" runat="server">
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+

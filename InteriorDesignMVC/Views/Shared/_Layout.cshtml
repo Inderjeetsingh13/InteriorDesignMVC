@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design </title>
+
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //custom-theme -->
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <script type="text/javascript" src="~/js/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+    <!-- gallery -->
+    <link href="~/css/lsb.css" rel="stylesheet" type="text/css">
+    <!-- //gallery -->
+    <!-- font-awesome-icons -->
+    <link href="~/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <script src="~/js/waypoints.min.js"></script>
+    <script src="~/js/counterup.min.js"></script>
+    <script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 2000
+			});
+		});
+    </script>
+    <script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint:480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint:640,
+						visibleItems:2
+					},
+					tablet: {
+						changePoint:768,
+						visibleItems: 2
+					}
+				}
+			});
+
+		});
+    </script>
+    <script type="text/javascript" src="~/js/jquery.flexisel.js"></script>
+    <!-- //flexisel -->
+    <!-- gallery-pop-up -->
+    <script src="~/js/lsb.min.js"></script>
+    <script>
+	$(window).load(function() {
+		  $.fn.lightspeedBox();
+		});
+    </script>
+    <!-- //gallery-pop-up -->
+    <!-- menu -->
+    <script type="text/javascript" src="~/js/main.js"></script>
+    <!-- //menu -->
+    <!-- for bootstrap working -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="~/js/move-top.js"></script>
+    <script type="text/javascript" src="~/js/easing.js"></script>
+    <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+    </script>
+
+
+</head>
+<body>
+
+    <div class="banner">
+        <div class="container">
+            <div class="w3_agile_logo">
+                <h1><a href="index.html">Adorning<span>Interior Design</span></a></h1>
+            </div>
+            <div class="agileits_w3layouts_nav">
+                <div id="toggle_m_nav">
+                    <div id="m_nav_menu" class="m_nav">
+                        <div class="m_nav_ham w3_agileits_ham" id="m_ham_1"></div>
+                        <div class="m_nav_ham" id="m_ham_2"></div>
+                        <div class="m_nav_ham" id="m_ham_3"></div>
+                    </div>
+                </div>
+                <div id="m_nav_container" class="m_nav wthree_bg">
+                    <nav class="menu menu--sebastian">
+                        <ul id="m_nav_list" class="m_nav menu__list">
+                            <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1">@Html.ActionLink("Home", "Index", "Home") </li>
+                            <li class="m_nav_item menu__item" id="moble_nav_item_2"> @Html.ActionLink("About", "About", "Home") </li>
+                            <li class="m_nav_item menu__item" id="moble_nav_item_3"> @Html.ActionLink("Contact", "Contact", "Home") </li>
+
+                            <li class="m_nav_item menu__item" id="moble_nav_item_5">  </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="agile_banner_info">
+                <h2><span>Interior design</span> <i>is making the best possible use of the available space</i></h2>
+                <p>
+                    Nullam ligula magna, pulvinar eget justo sit amet, posuere iaculis magna. Donec lorem
+                    lacus, gravida quis consectetur id, egestas non ligula.
+                </p>
+                <div class="agile_banner_info_pos">
+                    <ul>
+                        <li>Latest Designs</li>
+                        <li>Awards</li>
+                        <li>Furniture</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="agileinfo_more">
+                <a href="single.html" class="hvr-radial-in">read more</a>
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
+
+
+
+          
+                
+                
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="w3agile_footer_grids">
+                <div class="col-md-3 agileinfo_footer_grid">
+                    <div class="footer-logo">
+                        <h2><a href="default.aspx">Adorning<span>Interior Design</span></a></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 agileinfo_footer_grid">
+                    <h4>Call Us <span>+6435 567 891</span></h4>
+                    <p>Interior Design, 87 queen Road <span>Auckland NZ.</span></p>
+                    <ul class="social-icons">
+                        <li><a href="#" class="icon icon-border facebook"></a></li>
+                        <li><a href="#" class="icon icon-border twitter"></a></li>
+                        <li><a href="#" class="icon icon-border instagram"></a></li>
+                        <li><a href="#" class="icon icon-border pinterest"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 agileinfo_footer_grid agileinfo_footer_grid1">
+                    <ul class="w3layouts_footer_nav">
+                        <li><a href="default.aspx"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Home</a></li>
+                        <li><a href="default.aspx"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Web Icons</a></li>
+                        <li><a href="default.aspx"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Typography</a></li>
+                        <li><a href="default.aspx"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 agileinfo_footer_grid">
+                    <div class="agileinfo_footer_grid_left">
+                        <a href="#"><img src="~/images/6.jpg" alt=" " class="img-responsive" /></a>
+                    </div>
+                    <div class="agileinfo_footer_grid_left">
+                        <a href="#"><img src="~/images/4.jpg" alt=" " class="img-responsive" /></a>
+                    </div>
+                    <div class="agileinfo_footer_grid_left">
+                        <a href="#"><img src="~/images/5.jpg" alt=" " class="img-responsive" /></a>
+                    </div>
+                    <div class="agileinfo_footer_grid_left">
+                        <a href="#"><img src="~/images/7.jpg" alt=" " class="img-responsive" /></a>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copy">
+        <div class="container">
+            <p>© 2019 Adorning. All rights reserved</p>
+        </div>
+    </div>
+
+</body>
+</html>
